@@ -1,0 +1,1006 @@
+@media screen and (min-width:200px) and (max-width:700px){
+    /* navigation bar  */
+    .navbar{
+        font-size: 7px;
+    }
+    
+    /* browse colloection section  */
+    .banner-text{
+        position: absolute; bottom: 0; padding-left: 50px;padding-bottom: 30px; color: aliceblue;
+    p{
+        font-size: 11px; color: rgb(161, 161, 161); font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        font-size: 23px;
+    }
+    button{
+ background-color: rgb(216, 58, 0);
+ border-radius: 5px;
+ font-size: 8px;
+ padding: 4px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border: 0cap;
+ font-family:Arial, Helvetica, sans-serif;
+ color: rgb(219, 219, 219);
+
+
+    }
+}
+
+
+/* selling part  */
+.sell-image{
+    width: 250px;
+    padding: 10px;
+    float:right;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.sell-car{
+    padding: 32px;
+    h3{
+        font-family:cursive ;
+        font-size: 10px;
+        color: rgb(100, 100, 100);
+    }
+    h1{
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding-bottom: 8px;
+    }
+}
+.tags{
+    padding-left: 32px;
+    svg,i{
+        width: 30px;
+        
+    }
+    i{
+        font-size: 30px;
+        padding-bottom: 7px;
+    }
+    h4{
+        font-size: 15px;
+        padding-bottom: 21px;
+    }
+}
+/* know more button  */
+.know-more button{
+    border-radius: 7px;
+    margin-left: 32px;
+    margin-top: 0px;
+    font-size:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* carosel image  */
+.bmw img{
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 10px;
+    float: left;
+}
+/* carosel tags  */
+.idk{
+    padding-top: 50px;
+    margin-left: 290px;
+    font-size: 0px;
+    padding-bottom: 0px;
+    color: aliceblue;
+    h4{
+        font-size: 9px;
+        padding-bottom: 10px;
+    }
+    svg{
+        width: 30px;
+        height: 30px;
+        
+    }
+}
+/* explore button  */
+.explore {
+    padding-bottom: 30px;
+    button{
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    }
+}
+/* black background  */
+.black{
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* new section  */
+.popular{
+    padding-left: 32px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    h1,h4{
+    font-size: 20px;
+    }
+}
+/* adding 4 shopping items  */
+.four{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 201, 201);
+    padding: 3px;
+
+}
+
+.img1{
+    text-align:start;
+    padding: 3px;
+    width: 100%;
+    img{
+        border-radius: 7px;
+        width: 100%;
+        height: 80px;
+        padding-bottom: 6px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        h4{
+            font-size: 9px;
+        }
+        p{
+            font-size: 6px;
+            
+        }
+    } 
+}
+
+
+
+/* from dream zone  */
+.from{
+    padding-left: 32px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+/* adding 3 cards  */
+.three{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 25px;
+    
+}
+
+
+.img2{
+    img{
+        border-radius: 5px;
+        height: 100px;
+        width: 100%;
+    }
+    padding: 5px;
+    position: relative;
+    
+}
+
+.img2-txt{
+    padding-left: 5px;
+    padding-bottom: 4px;
+    position: absolute; 
+    bottom: 0; 
+    color: aliceblue;
+    h1{
+    font-size: 15px;
+    }
+}
+
+/* know more abt us button  */
+.know-about-us button{
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+    font-size:7px;
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 7px;
+        
+        
+    }
+    li{
+        
+        
+    }
+    h5{
+         
+        
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    p{
+        
+        margin-bottom: 20px;
+        
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 90px;
+        height: 110px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 7px;
+        margin-left: 15px;
+        
+        margin-right: 0px;
+
+        h4{
+            color: black;
+            padding-top: 10px;
+            font-size: 9px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 7px;
+            padding: 2px;
+            padding-left: 5px;
+            width: 80%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 0px;
+            color: white;
+            width: 50%;
+            font-size: 6px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 5px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+
+    i{
+        font-size: 20px;
+        padding: 5px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+           
+            padding-top: 5px;
+            padding-bottom: 20px;
+            font-size: 5px;
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+    /* browse colloection section  */
+    .banner-text{
+        position: absolute; bottom: 0; padding-left: 100px;padding-bottom: 100px; color: aliceblue;
+    p{
+        font-size: 15px; color: rgb(161, 161, 161); font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        font-size: 30px;
+    }
+    button{
+ background-color: rgb(216, 58, 0);
+ border-radius: 10px;
+ font-size: 10px;
+ padding: 7px;
+ padding-left: 35px;
+ padding-right: 35px;
+ border: 0cap;
+ font-family:Arial, Helvetica, sans-serif;
+ color: rgb(219, 219, 219);
+
+
+    }
+}
+
+
+/* selling part  */
+.sell-image{
+    width: 395px;
+    padding: 20px;
+    float:right;
+    border-radius: 35px;
+    margin-top: 0px;
+}
+.sell-car{
+    padding: 32px;
+    h3{
+        font-family:cursive ;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    h1{
+        font-size: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+    }
+}
+.tags{
+    padding-left: 30px;
+    svg,i{
+        width: 40px;
+        
+    }
+    i{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    h4{
+        font-size: 18px;
+        padding-bottom: 21px;
+    }
+}
+/* know more button  */
+.know-more button{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* carosel image  */
+.bmw img{
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+    float: left;
+}
+/* carosel tags  */
+.idk{
+    padding-top: 20px;
+    margin-left: 300px;
+    font-size: 0px;
+    padding-bottom: 0px;
+    color: aliceblue;
+    h4{
+        font-size: 12px;
+        padding-bottom: 20px;
+        
+    }
+    svg{
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+/* explore button  */
+.explore {
+    padding-bottom: 30px;
+    margin-left: 110px;
+    button{
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    }
+}
+/* black background  */
+.black{
+    background-color: rgb(0, 0, 0);
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* new section  */
+.popular{
+    padding-left: 32px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    h1,h4{
+        font-size: 25px;
+    }
+}
+/* adding 4 shopping items  */
+.four{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 201, 201);
+    
+
+}
+
+.img1{
+    text-align:start;
+    padding: 5px;
+    width: 100%;
+    img{
+        border-radius: 10px;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 9px;
+        }
+    } 
+}
+
+
+
+/* from dream zone  */
+.from{
+    padding-left: 32px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+/* adding 3 cards  */
+.three{
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+}
+
+
+.img2{
+    img{
+        border-radius: 10px;
+        height: 140px;
+        width: 100%;
+    }
+    padding: 7px;
+    position: relative;
+    
+}
+
+.img2-txt{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: absolute; 
+    bottom: 0; 
+    color: aliceblue;
+}
+
+/* know more abt us button  */
+.know-about-us button{
+    color: black;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+        
+    }
+    li{
+        
+        margin-left:  0px;
+        
+    }
+    h5{
+        
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    p{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 200px;
+        height: 180px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        h4{
+            color: black;
+            padding: 10px;
+            font-size: 15px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 3px;
+            margin: 3px;
+            font-size: 10px;
+            padding: 5px;
+            padding-left: 25px;
+            width: 85%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 7px;
+            color: white;
+            width: 50%;
+            font-size: 10px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 0px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    i{
+        font-size: 30px;
+        padding: 7px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+            
+            padding-top: 10px;
+            padding-bottom: 20px;
+            font-size: 8px;
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+    /* browse colloection section  */
+    .banner-text{ 
+    position: absolute; bottom: 0; padding-left: 100px;padding-bottom: 100px; color: aliceblue;
+    p{
+        font-size: 30px; color: rgb(161, 161, 161); font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        font-size: 60px;
+    }
+    button{
+ background-color: rgb(216, 58, 0);
+ border-radius: 20px;
+ font-size: 20px;
+ padding: 15px;
+ padding-left: 70px;
+ padding-right: 70px;
+ border: 0cap;
+ font-family:Arial, Helvetica, sans-serif;
+ color: rgb(219, 219, 219);
+}
+}
+
+/* selling part  */
+.sell-image{
+    padding: 50px;
+    float:right;
+    border-radius: 80px;
+    margin-top: 50px;
+    width: 635px;
+}
+.sell-car{
+    padding: 90px;
+    h3{
+        font-family:cursive ;
+        font-size: 40px;
+        color: rgb(100, 100, 100);
+    }
+    h1{
+        font-size: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+    }
+}
+.tags{
+    padding-left: 90px;
+    svg,i{
+        width: 70px;
+        
+    }
+    i{
+        font-size: 70px;
+        padding-bottom: 15px;
+    }
+    h4{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+}
+/* know more button  */
+.know-more button{
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-top: 50px;
+    font-size:40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* carosel image  */
+.bmw img{
+    margin-top: 180px;
+    margin-left: 90px;
+    border-radius: 30px;
+    float: left;
+}
+/* carosel tags  */
+.idk{
+    padding-top: 110px;
+    margin-left: 850px;
+    font-size: larger;
+    padding-bottom: 100px;
+    color: aliceblue;
+    svg{
+        width: 70px;
+        height: 70px;
+    }
+}
+/* explore button  */
+.explore button{
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+/* black background  */
+.black{
+    background-color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+
+
+
+
+
+/* new section  */
+.popular{
+    padding-left: 95px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+/* adding 4 shopping items  */
+.four{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 201, 201);
+    
+
+}
+
+.img1{
+    text-align:start;
+    padding: 18px;
+    width: 100%;
+    img{
+        border-radius: 10px;
+        height: 200px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        h4{
+            font-size: 26px;
+        }
+    } 
+}
+
+
+
+/* from dream zone  */
+.from{
+    padding-left: 95px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+/* adding 3 cards  */
+.three{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+
+.img2{
+    img{
+        border-radius: 10px;
+        height: 240px;
+        width: 100%;
+    }
+    padding: 20px;
+    position: relative;
+    
+}
+
+.img2-txt{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    position: absolute; 
+    bottom: 0; 
+    color: aliceblue;
+}
+
+/* know more abt us button  */
+.know-about-us button{
+    color: black;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 95px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+
+
+/* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    li{
+        
+        margin-left:  30px;
+    }
+    h5{
+        margin: 50px; 
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    p{
+        margin: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 300px;
+        height: 230px;
+        text-align: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin: 50px;
+        margin-right: 30px;
+
+        h4{
+            color: black;
+            padding: 10px;
+            font-size: 28px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 10px;
+            padding: 5px;
+            padding-left: 25px;
+            width: 93%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 5px;
+            margin: 15px;
+            color: white;
+            width: 50%;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 10px;
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    i{
+        font-size: 50px;
+        padding: 20px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+
+}
+
+
