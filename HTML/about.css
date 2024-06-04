@@ -1,6 +1,493 @@
+@media screen and (min-width:200px) and (max-width:700px){
+    /* navigation bar  */
+    .navbar{
+        font-size: 7px;
+    }
+
+
+    /* bg image  */
+.banner-card{
+    img{
+        filter: brightness(50%);
+    }
+}
+
+
+/* bg image contents  */
+.banner-text{ 
+    position: absolute; 
+    bottom: 0; 
+    padding-left: 30px;
+    padding-bottom: 10px; 
+    color: aliceblue;
+
+    h4{
+        font-size: 15px; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-size: 35px; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+}
 
 
 
+/* paragraph section  */
+.para{
+
+    h6{
+        padding-left: 30px;
+        padding-top: 50px;
+        font-size: 13px;
+        padding-bottom: 40px;
+        font-weight: 700;
+    }
+    p{
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        font-size: 11px;
+    }
+}
+
+
+
+/* adiing USP section  */
+.usp{
+
+    h1{
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+    .two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 10px;
+
+    .img2{
+
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        img{
+            border-radius: 10px;
+            height: 130px;
+            width: 100%;
+        }
+        
+        h4{
+            padding: 10px;
+            padding-bottom: 0;
+            font-size: 13px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+        }
+        
+        p{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 8px;
+        }
+
+
+    }
+
+}
+}
+
+
+
+
+
+
+/* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+    font-size:7px;
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 7px;
+        
+        
+    }
+    
+    h5{
+         
+        
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    p{
+        
+        margin-bottom: 20px;
+        
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 90px;
+        height: 110px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 7px;
+        margin-left: 15px;
+        
+        margin-right: 0px;
+
+        h4{
+            color: black;
+            padding-top: 10px;
+            font-size: 9px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 7px;
+            padding: 2px;
+            padding-left: 5px;
+            width: 80%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 0px;
+            color: white;
+            width: 50%;
+            font-size: 6px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 5px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+
+    i{
+        font-size: 20px;
+        padding: 5px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+           
+            padding-top: 5px;
+            padding-bottom: 20px;
+            font-size: 5px;
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+
+
+
+/* bg image  */
+.banner-card{
+    img{
+        filter: brightness(50%);
+    }
+}
+
+
+/* bg image contents  */
+.banner-text{ 
+    position: absolute; 
+    bottom: 0; 
+    padding-left: 30px;
+    padding-bottom: 30px; 
+    color: aliceblue;
+
+    h4{
+        font-size: 20px; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-size: 50px; 
+        color: white; 
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+}
+
+
+
+/* paragraph section  */
+.para{
+
+    h6{
+        padding-left: 30px;
+        padding-top: 50px;
+        font-size: 16px;
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+    p{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+/* adiing USP section  */
+.usp{
+
+    h1{
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 20px;
+
+    .img2{
+
+        padding: 15px;
+        position: relative;
+        text-align: center;
+        img{
+            border-radius: 10px;
+            height: 200px;
+            width: 100%;
+        }
+        
+        h4{
+            padding: 15px;
+            font-size: 19px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+        }
+        
+        p{
+            font-size: 11px;
+            padding-left: 20px;
+            padding-right: 20px
+            
+        }
+
+
+    }
+
+}
+}
+
+
+
+
+
+
+/* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+        
+    }
+    li{
+        
+        margin-left:  0px;
+        
+    }
+    h5{
+        
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    p{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 200px;
+        height: 180px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        h4{
+            color: black;
+            padding: 10px;
+            font-size: 15px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 3px;
+            margin: 3px;
+            font-size: 10px;
+            padding: 5px;
+            padding-left: 25px;
+            width: 85%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 7px;
+            color: white;
+            width: 50%;
+            font-size: 10px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 0px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    i{
+        font-size: 30px;
+        padding: 7px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+            
+            padding-top: 10px;
+            padding-bottom: 20px;
+            font-size: 8px;
+        }
+    }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
 /* bg image  */
 .banner-card{
     img{
@@ -208,4 +695,5 @@
             font-size: 14px;
         }
     }
+}
 }
