@@ -108,7 +108,41 @@
 
 
 
+/* dz logo  */
+.dz{
+    text-align: center;
+    background-color: rgb(192, 192, 192);
 
+    img{
+        height: 70px;
+        width: 70px;
+        margin-bottom:  10px;
+        margin-top: 30px;
+    }
+
+    h4{
+        font-weight: 780;
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 11px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    button{
+        border: solid black 1px;
+        border-radius: 7px;
+        padding: 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+
+}
 
 
 /* footer section  */
@@ -349,6 +383,40 @@
 
 
 
+/* dz logo  */
+.dz{
+    text-align: center;
+    background-color: rgb(192, 192, 192);
+
+    img{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    h4{
+        font-weight: 780;
+    }
+
+    p{
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    button{
+        border: solid black 1px;
+        border-radius: 7px;
+        padding: 1px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 13px;
+    }
+
+}
 
 
 
@@ -584,6 +652,42 @@
 
 }
 }
+
+
+
+
+/* dz logo  */
+.dz{
+    text-align: center;
+    background-color: rgb(192, 192, 192);
+
+    img{
+        height: 150px;
+        width: 150px;
+        margin-bottom:  20px;
+        margin-top: 50px;
+    }
+
+    h4{
+        font-weight: 780;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    button{
+        border: solid black 1px;
+        border-radius: 7px;
+        padding: 3px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+}
+
 
 
 
