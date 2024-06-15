@@ -26,87 +26,429 @@
     <!-- adding nav bar  -->
 
     <nav class="navbar bg-dark navbar-dark">
-        <div class="container-fluid">
-          <img height="50px " width="50px" style="border-radius: 100%;" src="https://i.ibb.co/PW0WL6h/dz-logo.jpg"  alt="dz-logo">
-          
-         
-          <!-- nav items  -->
+      <div class="container-fluid">
+        <img id="dzlogo" height="50px " width="50px" style="border-radius: 100%;" src="https://i.ibb.co/PW0WL6h/dz-logo.jpg"  alt="dz-logo">
+        
+       
+        <!-- nav items  -->
 
-          <ul style="display: flex; flex-direction: row;" class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
-            <li style="padding: 10px;" class="nav-item">
-              <a class="nav-link " aria-current="page" href="Home.html">Home</a>
+        <ul style="display: flex; flex-direction: row;" class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+          <li style="padding: 10px;" class="nav-item">
+            <a class="nav-link " aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li style="padding: 10px;" class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li style="padding: 10px;" class="nav-item">
+              <a class="nav-link " aria-current="page" href="team.html">Team</a>
             </li>
             <li style="padding: 10px;" class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li style="padding: 10px;" class="nav-item">
-                <a class="nav-link " aria-current="page" href="team.html">Team</a>
-              </li>
-              <li style="padding: 10px;" class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li style="padding: 10px;" class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-              </li>
-          </ul>
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+        </ul>
 
-          <!-- button of 3 dot  -->
+        <!-- button of 3 dot  -->
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dream Zone</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a  class="nav-link " aria-current="page" href="Home.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
-                  </svg>&nbsp;&nbsp; Home</a>
-                </li>
-                <li class="nav-item">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dream Zone</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a  class="nav-link " aria-current="page" href="Home.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                </svg>&nbsp;&nbsp; Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                  <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                  <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                </svg> &nbsp;&nbsp;Used Cars</a>
+              </li>
+              <li class="nav-item">
                   <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
-                    <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
-                    <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
-                  </svg> &nbsp;&nbsp;Used Cars</a>
+                      <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                      <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg> &nbsp;&nbsp;Sell cars</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
-                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
-                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
-                      </svg> &nbsp;&nbsp;Sell cars</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="team.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
-                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-                      </svg>&nbsp;&nbsp; Our Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
-                        <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
-                        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
-                      </svg>&nbsp;&nbsp; About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
-                        <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                      </svg>&nbsp;&nbsp; Contact Us</a>
-                  </li>
-              </ul>
-              
-            </div>
+                  <a class="nav-link" href="team.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                      <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                    </svg>&nbsp;&nbsp; Our Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
+                      <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
+                      <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
+                    </svg>&nbsp;&nbsp; About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
+                      <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>&nbsp;&nbsp; Contact Us</a>
+                </li>
+            </ul>
+            
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
 
 
 
 
 
+      <!-- adding cards for ads  -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/mNN3Hkm/gle-300d.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2021 Mercedes-Benz GLE 300d 4MATIC</h6>
+                <p class="card-text">
+                  ₹79,75,000 <br>
+                  Make Offer <br>
+                  25,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+    
+                
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/w6VcZtp/audi-a4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2011 Audi A4 2.0 TDI (177bhp) Premium</h6>
+                <p class="card-text">
+                  ₹8,90,000 <br>
+                  Make Offer <br>
+                  78,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Lucknow
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/wpyd2T5/BMW-3-Series-320d.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2013 BMW 3 Series 320d Luxury Line</h6>
+                <p class="card-text">
+                  ₹11,50,000 <br>
+                  Make Offer <br>
+                  1,29,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Kanpur
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/t3n6h9q/freelander-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2016 Land Rover Freelander 2 HSE SD4</h6>
+                <p class="card-text">
+                  ₹14,11,000 <br>
+                  Make Offer <br>
+                  1,22,793 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Vadodara
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/Ytt6pTc/bmw-x7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2021 BMW X7 xDrive30d DPE</h6>
+                <p class="card-text">
+                  ₹1,02,00,000 <br>
+                  Make Offer <br>
+                  22,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/KW9rgXQ/audi-A6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2016 Audi A6 35 TDI Matrix</h6>
+                <p class="card-text">
+                  ₹ 22,00,000 <br>
+                  Make Offer <br>
+                  32,000 kms &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/xXV2mpN/Chevrolet-Cruze.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2017 Chevrolet Cruze LTZ AT</h6>
+                <p class="card-text">
+                  ₹8,50,000 <br>
+                  Make Offer <br>
+                  54,500 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/DzVYfkx/aston-martin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2024 Aston Martin DBX 707</h6>
+                <p class="card-text">
+                  ₹ 4,11,00,000 <br>
+                  Make Offer <br>
+                  700 kms &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; KL 22
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/hY2F6Sh/Porsche-911.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2019 Porsche 911 GT3 [2013-2017]</h6>
+                <p class="card-text">
+                  ₹3,65,00,000 <br>
+                  Make Offer <br>
+                  6,500 KMs &nbsp;&nbsp;|&nbsp;&nbsp; petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/F36hXYj/ferrari.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2016 Ferrari 488 GTB</h6>
+                <p class="card-text">
+                  ₹ 3,85,00,000 <br>
+                  Make Offer <br>
+                  8,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; KA
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/zx9KdYX/isuzu-Dmax.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2019 Isuzu D-MAX V-Cross Standard</h6>
+                <p class="card-text">
+                  ₹10,50,000 <br>
+                  Make Offer <br>
+                  30,166 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp;  Hyderabad
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/rFzxshQ/nissan-sunny.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2014 Nissan Sunny XL CVT AT</h6>
+                <p class="card-text">
+                  ₹3,75,000 <br>
+                  Make Offer <br>
+                  35,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/0mCXWsf/lexus-rx.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2016 Lexus RX 450h,SUV-like profile</h6>
+                <p class="card-text">
+                  ₹60,00,000 <br>
+                  Make Offer <br>
+                  9,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Delhi
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/NZNvQps/0-Bentley-Continental-GT-3rd-gen-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2019 Bentley Continental GT Coupe</h6>
+                <p class="card-text">
+                  ₹1,60,00,000 <br>
+                  Make Offer <br>
+                  19,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+          
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/BB3cv8T/toyota-corolla.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2014 Toyota Corolla Altis 1.8 G</h6>
+                <p class="card-text">
+                  ₹5,95,000  <br>
+                  Make Offer <br>
+                  53,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/WF66JZC/slavia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2022 Skoda Slavia Style 1.5L TSI DSG</h6>
+                <p class="card-text">
+                  ₹16,74,999 <br>
+                  Make Offer <br>
+                  11,200 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/MMJ2nJh/cls500.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2005 Mercedes-Benz CLS 500</h6>
+                <p class="card-text">
+                  ₹14,90,000 <br>
+                  Make Offer <br>
+                  62,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/mvyjb60/E-class.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2018 Mercedes-Benz E-Class E 220 </h6>
+                <p class="card-text">
+                  ₹39,95,000 <br>
+                  Make Offer <br>
+                  33,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/sFzKgTX/volvo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2011 Volvo XC60 D5 AWD AT</h6>
+                <p class="card-text">
+                  ₹10,35,000 <br>
+                  Make Offer <br>
+                  1,24,000 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Mumbai
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/4TZS02d/porsche-red.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2023 Porsche 911 Turbo S</h6>
+                <p class="card-text">
+                  ₹1,99,50,000 <br>
+                  Make Offer <br>
+                  2,508 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Petrol&nbsp;&nbsp; |&nbsp;&nbsp; Bangalore
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+        
+        <a href="#">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://i.ibb.co/SP5rXzw/mini.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">2013 MINI Cooper Countryman Cooper D</h6>
+                <p class="card-text">
+                  ₹16,75,000 <br>
+                  Make Offer <br>
+                  71,430 KMs &nbsp;&nbsp;|&nbsp;&nbsp; Diesel&nbsp;&nbsp; |&nbsp;&nbsp; Banglore
+                </p>
+              </div>
+            </div>
+         </div>
+        </a> 
+
+
+      </div>
 
 
 

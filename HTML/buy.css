@@ -1,4 +1,39 @@
-/* footer section  */
+@media screen and (min-width:200px) and (max-width:700px){
+    /* navigation bar  */
+    .navbar{
+        font-size: 7px;
+
+        #dzlogo{
+            width: 25px;
+            height: 25px;
+        }
+        .navbar-toggler{
+            font-size: 5px;
+        }
+    }
+
+
+
+
+    .row{
+        margin: 0px;
+        margin-bottom: 50px;
+
+        .col{
+            margin: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            h6{
+                font-weight: 700;
+            }
+        }
+    }
+
+
+
+    /* footer section  */
 
 .bg{
     display: flex;
@@ -7,7 +42,340 @@
     width: 100%;
     background-color: black;
     color: white;
+    
+    font-size:7px;
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 3px;
+        
+        
+    }
+    
+    h5{
+         
+        
+        margin-top: 20px;
+        font-size: 7px;
+    }
+    p{
+        font-size: 4px;
+        font-weight: 900;
+        margin-bottom: 5px;
+        
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 70px;
+        height: 93px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 7px;
+        margin-left: 15px;
+        
+        
+
+        h4{
+            color: black;
+            padding-top: 10px;
+            font-size: 6px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 4px;
+            margin: 2px;
+            font-size: 5px;
+            padding: 2px;
+            padding-left: 5px;
+            width: 80%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 0px;
+            color: white;
+            width: 50%;
+            font-size: 4px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 0px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+
+    i{
+        font-size: 15px;
+        padding: 05px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        font-size: 3px;
+        p{
+           
+            padding-top: 5px;
+            padding-bottom: 20px;
+            font-size: 3px;
+        }
+    }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+
+
+    .row{
+        margin: 0px;
+        margin-bottom: 50px;
+
+        .col{
+            margin: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            h6{
+                font-weight: 700;
+            }
+        }
+    }
+
+
+
+
+
+
+    /* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 9px;
+        
+    }
+    li{
+        
+        margin-left:  0px;
+        
+    }
+    h5{
+        
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    p{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+
+    form{
+        background-color: rgb(99, 99, 99);
+        width: 200px;
+        height: 180px;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        h4{
+            color: black;
+            padding: 10px;
+            font-size: 15px; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],select
+        {
+            background-color: rgb(199, 199, 199);
+            border: solid black 1px;
+            color: rgb(100, 100, 100);
+            border-radius: 3px;
+            margin: 3px;
+            font-size: 10px;
+            padding: 5px;
+            padding-left: 25px;
+            width: 85%;
+            
+        }
+
+        input[type="submit"]
+        {
+            background-color: rgb(216, 58, 0);
+            border: solid 0px;
+            border-radius: 3px;
+            margin: 7px;
+            color: white;
+            width: 50%;
+            font-size: 10px;
+        }
+    }
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    h3{
+        
+        padding-top: 0px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    i{
+        font-size: 30px;
+        padding: 7px;
+        color: white;
+        
+    }
+    .social{
+        text-align: center;
+        p{
+            
+            padding-top: 10px;
+            padding-bottom: 20px;
+            font-size: 8px;
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+
+
+    .row{
+        margin: 40px;
+        margin-bottom: 50px;
+
+        .col{
+            margin: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            h6{
+                font-weight: 700;
+            }
+        }
+    }
+
+
+
+
+
+
+
+    /* footer section  */
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    background-color: black;
+    color: white;
     margin-bottom: 50px;
+    margin-left: 50px;
     
     a{
         text-decoration: none;
@@ -17,15 +385,15 @@
     }
     li{
         
-        margin-left:  30px;
+        margin-left:  10px;
     }
     h5{
-        margin: 50px; 
+        margin: 30px; 
         margin-bottom: 20px;
         margin-top: 50px;
     }
     p{
-        margin: 50px;
+        margin: 30px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
@@ -33,19 +401,17 @@
 
     form{
         background-color: rgb(99, 99, 99);
-        width: 300px;
+        width: 200px;
         height: 230px;
         text-align: center;
         margin-top: 50px;
-        border-radius: 20px;
-        margin-left: 50px;
-        margin: 50px;
-        margin-right: 30px;
+        border-radius: 10px;
+        
 
         h4{
             color: black;
             padding: 10px;
-            font-size: 28px; 
+            font-size: 20px; 
         }
 
         input[type="text"],
@@ -72,6 +438,7 @@
             margin: 15px;
             color: white;
             width: 50%;
+            font-size: 15px;
         }
     }
 }
@@ -103,4 +470,7 @@
             font-size: 14px;
         }
     }
+}
+
+
 }
