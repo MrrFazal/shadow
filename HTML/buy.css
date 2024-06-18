@@ -134,6 +134,10 @@
     .social{
         text-align: center;
         font-size: 3px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
         p{
            
             padding-top: 5px;
@@ -299,6 +303,10 @@
     }
     .social{
         text-align: center;
+        a{
+            text-decoration: none;
+            color: white;
+        }
         p{
             
             padding-top: 10px;
@@ -462,6 +470,10 @@
     }
     .social{
         text-align: center;
+        a{
+            text-decoration: none;
+            color: white;
+        }
         p{
             padding-left: 50px;
             padding-right: 50px;
